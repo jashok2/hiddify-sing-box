@@ -1,9 +1,12 @@
 module github.com/sagernet/sing-box
 
-go 1.20
+go 1.21
+
+toolchain go1.22.1
 
 require (
 	berty.tech/go-libtor v1.0.385
+	github.com/Dreamacro/clash v1.18.0
 	github.com/caddyserver/certmagic v0.20.0
 	github.com/cloudflare/circl v1.3.7
 	github.com/cretz/bine v0.2.0
@@ -61,6 +64,7 @@ require (
 require github.com/sagernet/wireguard-go v0.0.0-00010101000000-000000000000
 
 require (
+	github.com/Dreamacro/protobytes v0.0.0-20230617041236-6500a9f4f158 // indirect
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect

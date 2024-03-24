@@ -3,9 +3,9 @@ package inbound
 import (
 	"context"
 	"net"
-	"github.com/sagernet/sing-box/common/proxyproto"//Hiddify
 
 	"github.com/sagernet/sing-box/adapter"
+	"github.com/sagernet/sing-box/common/proxyproto" //Hiddify
 	"github.com/sagernet/sing-box/log"
 	E "github.com/sagernet/sing/common/exceptions"
 	M "github.com/sagernet/sing/common/metadata"
